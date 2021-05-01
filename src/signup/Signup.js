@@ -1,13 +1,8 @@
-import logo from "./logo.svg";
 import React from "react";
-import "./App.css";
-import Navbar from "./navbar/Navbar";
-import FormField from "./formfield/FormField";
-import CoolButton from "./coolbutton/CoolButton";
 
-function App() {
+function Signup(props) {
   return (
-    <div className="App">
+    <div>
       <Navbar />
       <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
       <FormField
@@ -15,14 +10,16 @@ function App() {
         type="email"
         placeholder="e.g. alexsmith@gmail.com"
       />
+      <FormField label="Password" type="password" />
+
       <CoolButton isSmall isDanger className="is-rounded my-class">
         Button 1
       </CoolButton>
       <CoolButton isSmall isSuccess>
-        Button 2
+        Signup
       </CoolButton>
     </div>
   );
 }
 
-export default App;
+export default Signup;
