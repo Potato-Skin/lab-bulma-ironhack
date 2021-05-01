@@ -3,7 +3,7 @@ import "./FormField.css";
 
 function FormField(props) {
   return (
-    <div class="field">
+    <div class="field" className="bulma-field">
       <label class="label">{props.label}</label>
       <div class="control">
         <input
