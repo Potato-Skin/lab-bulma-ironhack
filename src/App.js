@@ -1,13 +1,15 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./navbar/Navbar.js";
 import FormField from "./formfield/FormField";
 import CoolButton from "./coolbutton/CoolButton";
+import Signup from "./Signup";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {
+        <Signup />
+        /* <Navbar />
       <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
       <FormField
         label="Email"
@@ -19,7 +21,8 @@ function App() {
       </CoolButton>
       <CoolButton isSmall isSuccess>
         Button 2
-      </CoolButton>
+      </CoolButton> */
+      }
     </div>
   );
 }
