@@ -16,7 +16,9 @@ function Navbar() {
         <a class="navbar-item" href="#">
           Home
         </a>
-        <div class="navbar-item navbar-end" id="buttons">
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-item navbar-end">
           <button class="button is-primary">Login</button>
           <button class="button is-info">Sign Up</button>
         </div>
