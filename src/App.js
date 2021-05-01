@@ -9,6 +9,9 @@ function App() {
     <div className="App">
       {
         <Signup />
+
+        //UNCOMMENT FOR PREVIOUS ITERATIONS (1-3)
+
         /* <Navbar />
       <FormField label="Name" type="text" placeholder="e.g Alex Smith" />
       <FormField
