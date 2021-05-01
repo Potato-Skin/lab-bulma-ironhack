@@ -1,3 +1,6 @@
+import React from "react";
+import "./Navbar.css";
+
 import logo from "../bulma-logo.png";
 
 function Navbar() {
