@@ -1,4 +1,7 @@
 import React from "react";
+import Navbar from "../navbar/Navbar";
+import FormField from "../formfield/FormField";
+import CoolButton from "../coolbutton/CoolButton";
 
 function Signup(props) {
   return (
@@ -11,10 +14,6 @@ function Signup(props) {
         placeholder="e.g. alexsmith@gmail.com"
       />
       <FormField label="Password" type="password" />
-
-      <CoolButton isSmall isDanger className="is-rounded my-class">
-        Button 1
-      </CoolButton>
       <CoolButton isSmall isSuccess>
         Signup
       </CoolButton>
