@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import Navbar from "./navbar/Navbar";
+import FormField from "./formfield/FormField";
+import CoolButton from "./coolButton/CoolButton";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <FormField label="Name" type="text" placeholder="Name" />
+      <FormField label="Email" type="email" placeholder="Email" />
+      <CoolButton className="is-rounded is-danger">Button 1</CoolButton>
+      <CoolButton isSuccess>Button 2</CoolButton>
     </div>
   );
 }
