@@ -8,7 +8,7 @@ function Signup() {
     <div>
       <Navbar />
       <FormField label="Email" type="email" placeholder="Email" />
-      <FormField label="Password" type="text" placeholder="Password" />
+      <FormField label="Password" type="password" placeholder="Password" />
       <CoolButton className="is-rounded is-danger">Sign up</CoolButton>
     </div>
   );

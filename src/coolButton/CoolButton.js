@@ -33,7 +33,9 @@ function CoolButton(props) {
   const { children, className = "", ...rest } = props;
   let classes = `button ${className}`;
   for (let key in rest) {
-    classes += `${cases[key]}`;
+    if (classes[key]) {
+      classes += `${cases[key]}`;
+    }
   }
   return <button className={classes}>{children}</button>;
 }
