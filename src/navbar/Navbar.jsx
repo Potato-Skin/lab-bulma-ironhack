@@ -1,4 +1,7 @@
 import React from "react";
+import "./Navbar.css";
+
+import CoolButton from "../coolbutton/CoolButton";
 
 function Navbar() {
   return (
@@ -17,12 +20,8 @@ function Navbar() {
         </a>
       </div>
       <div className="navbar-end">
-        <p className="control">
-          <a className="button is-info">Login</a>
-        </p>
-        <p className="control">
-          <a className="button is-primary">Sign up</a>
-        </p>
+        <CoolButton className="is-info">Login</CoolButton>
+        <CoolButton className="is-primary">Sign up</CoolButton>
       </div>
     </nav>
   );
