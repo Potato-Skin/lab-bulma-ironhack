@@ -3,9 +3,9 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav class="navbar is-transparent">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="https:/bulma.io">
+    <nav className="navbar is-transparent">
+      <div className="navbar-brand">
+        <a className="navbar-item" href="https:/bulma.io">
           <img
             src="https://bulma.io/images/bulma-logo.png"
             alt="Bulma: a modern CSS framework based on Flexbox"
@@ -13,14 +13,14 @@ function Navbar() {
             height="28"
           ></img>
         </a>
-        <a class="navbar-item" href="#">
+        <a className="navbar-item" href="#">
           Home
         </a>
       </div>
-      <div class="navbar-menu">
-        <div class="navbar-item navbar-end">
-          <button class="button is-primary">Login</button>
-          <button class="button is-info">Sign Up</button>
+      <div className="navbar-menu">
+        <div className="navbar-item navbar-end">
+          <button className="button is-primary">Login</button>
+          <button className="button is-info">Sign Up</button>
         </div>
       </div>
     </nav>
