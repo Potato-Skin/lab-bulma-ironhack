@@ -14,7 +14,7 @@ function App() {
       <FormField label="Name" type="text" placeholder="Name" />
       <FormField label="Email" type="email" placeholder="Email" />
       <CoolButton className="is-rounded is-danger">Button 1</CoolButton>
-      <CoolButton isSuccess>Button 2</CoolButton>
+      <CoolButton className="is-success">Button 2</CoolButton>
       <Signup />
       <Container>
         <Message isInfo title="Hello World">

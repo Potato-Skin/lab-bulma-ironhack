@@ -1,5 +1,6 @@
 import React from "react";
 import CoolButton from "../coolButton/CoolButton";
+import "./Navbar.css";
 
 function Navbar() {
   return (
@@ -23,8 +24,8 @@ function Navbar() {
         </div>
       </div>
       <div className="buttons">
-        <CoolButton isInfo>Login</CoolButton>
-        <CoolButton isPrimary>Signup</CoolButton>
+        <CoolButton className="is-info">Login</CoolButton>
+        <CoolButton className="is-primary">Signup</CoolButton>
       </div>
     </nav>
   );

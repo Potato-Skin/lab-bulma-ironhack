@@ -1,4 +1,5 @@
 import React from "react";
+import "./CoolButton.css";
 
 const cases = {
   isActive: "is-active",
